@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.main-list {
+  margin: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-list>li {
+  margin: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sub-list {
+  display: none;
+  margin: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* h3:hover+.sub-list {
+  display: inline-block;
+  transition: all 1s ease-out;
+} */
+
+.sub-list>li {
+  margin: 5px;
+  font-size: 15px;
+}
